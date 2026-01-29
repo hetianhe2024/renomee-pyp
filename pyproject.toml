@@ -5,15 +5,29 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "renomee-pyp"
 version = "0.0.1"
-description = "renomee-pyp Python package"
+description = "Lightweight image utilities for image-to-PDF, compression, and OCR."
 readme = "README.md"
 requires-python = ">=3.9"
 license = "Apache-2.0"
 authors = [{ name = "hetianhe2024" }]
+keywords = [
+  "image",
+  "pdf",
+  "image-to-pdf",
+  "compression",
+  "ocr",
+  "document",
+  "converter",
+  "tools",
+]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://xiaojingxiu.com/"
+Source = "https://github.com/hetianhe2024/didafix"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
